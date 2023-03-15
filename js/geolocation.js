@@ -43,7 +43,7 @@ export const getGeoLocation = () => {
     const typeWeather = cityLocationWeather.weather[0].main.toLowerCase();
     switch (typeWeather) {
       case "clouds":
-        container.style.background = "url(../img/clouds.gif)";
+        container.style.background = "url(../img/clouds.jpg)";
         container.style.backgroundRepeat = "no-repeat";
         container.style.backgroundSize = "cover";
         break;
