@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>api</title>
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="card">
+
+          <div class="weather">
+            <p class="name-city"></p>
+
+            <p class="description-box">
+              <span class="description"><img /></span>
+            </p>
+
+            <p class="temp-box">
+              <img class="temp-img" src="./img/svg/temp.svg" alt="Temp" />
+              <span class="temp"></span>
+            </p>
+
+            <p class="pressure-box">
+              <img
+                class="pressure-img"
+                src="./img/svg/pressure.svg"
+                alt="Pressure"
+              />
+              <span class="pressure"></span>
+            </p>
+
+            <p class="humidity-box">
+              <img
+                class="humidity-img"
+                src="./img/svg/humidity.svg"
+                alt="Humidity"
+              />
+              <span class="humidity"></span>
+            </p>
+
+            <p class="wind-box">
+              <img class="wind-img" src="./img/svg/wind.svg" alt="Wind" />
+              <span class="wind"></span>
+            </p>
+            
+          </div>
+          
+        </div>
+
+        <form class="form">
+          <input
+            type="text"
+            class="input-city"
+            value=""
+            placeholder="Шайтан-машина, найди..."
+          />
+          <div class="btn-box">
+            <button class="btn-city">Найти город</button>
+            <button class="btn-location">Моё местополежение</button>
+          </div>
+        </form>
+        
+        <div class="update-box">
+          <button class="update" type="submit">
+            <img src="./img/svg/update.svg" alt="Update">
+          </button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>
