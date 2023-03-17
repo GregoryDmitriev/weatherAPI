@@ -9,7 +9,6 @@ body {
   font-family: "Inter", sans-serif;
   display: flex;
   justify-content: center;
-  margin: 50px;
   background: linear-gradient(to right, #ece6cce1, #8cdcdfd5, #43679cdc);
 }
 
@@ -23,13 +22,13 @@ body {
 .container {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 90%;
   height: 90vh;
   background-image: url("../img/default.gif");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
-  align-items: center;
 }
 
 .main {
