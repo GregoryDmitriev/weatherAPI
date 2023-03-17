@@ -32,6 +32,7 @@ form.addEventListener("submit", (e) => {
 
 btnLocation.addEventListener("click", getGeoLocation);
 btnUpdate.addEventListener("click", () => {
+  document.querySelector(".container").style.background = "";
   nameCity.innerHTML = "";
   description.innerHTML = "";
   pressure.innerHTML = "";
