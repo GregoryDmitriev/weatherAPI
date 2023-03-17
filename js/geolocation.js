@@ -50,25 +50,25 @@ export const getGeoLocation = () => {
         break;
 
       case "snow":
-        container.style.background = "url(../img/snow.gif)";
+        container.style.background = "url(https://media.giphy.com/media/Fh3ezinVpi4yk/giphy.gif)";
         container.style.backgroundRepeat = "no-repeat";
         container.style.backgroundSize = "cover";
         break;
 
       case "drizzle":
-        container.style.background = "url(../img/drizzle.gif)";
+        container.style.background = "url(https://media.giphy.com/media/3o7at59KDANvJrUDbG/giphy.gif)";
         container.style.backgroundRepeat = "no-repeat";
         container.style.backgroundSize = "cover";
         break;
 
       case "rain":
-        container.style.background = "url(../img/rain.gif)";
+        container.style.background = "url(https://media.giphy.com/media/gRnSZSRzOJeG4/giphy.gif)";
         container.style.backgroundRepeat = "no-repeat";
         container.style.backgroundSize = "cover";
         break;
 
       case "thunderstorm":
-        container.style.background = "url(../img/thunderstorm.gif)";
+        container.style.background = "url(https://media.giphy.com/media/P6pcqhoYqKHxC/giphy.gif)";
         container.style.backgroundRepeat = "no-repeat";
         container.style.backgroundSize = "cover";
         break;
@@ -82,19 +82,19 @@ export const getGeoLocation = () => {
       "ash",
       "squall",
       "tornado"):
-        container.style.background = "url(../img/fog.gif)";
+        container.style.background = "url(https://media.giphy.com/media/xT0xetq8fErCoByquk/giphy.gif)";
         container.style.backgroundRepeat = "no-repeat";
         container.style.backgroundSize = "cover";
         break;
 
       case "clear":
-        container.style.background = "url(../img/clear.gif)";
+        container.style.background = "url(https://media.giphy.com/media/xmW8F2ksN0KA0/giphy.gif)";
         container.style.backgroundRepeat = "no-repeat";
         container.style.backgroundSize = "cover";
         break;
 
       default:
-        container.style.background = "url(../img/default.gif)";
+        container.style.background = "url(https://media.giphy.com/media/BpJWIIYcGd2Cc/giphy.gif)";
         container.style.backgroundRepeat = "no-repeat";
         container.style.backgroundSize = "cover";
         break;
