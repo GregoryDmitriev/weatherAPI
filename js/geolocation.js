@@ -46,7 +46,6 @@ export const getGeoLocation = () => {
         container.style.background = "url(https://media.giphy.com/media/RpwupnbQE5nK6iRkYJ/giphy.gif)";
         container.style.backgroundRepeat = "no-repeat";
         container.style.backgroundSize = "cover";
-        console.log(container.style.background)
         break;
 
       case "snow":
