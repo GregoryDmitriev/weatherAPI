@@ -9,6 +9,7 @@ body {
   font-family: "Inter", sans-serif;
   display: flex;
   justify-content: center;
+  align-items: center;
   background: linear-gradient(to right, #ece6cce1, #8cdcdfd5, #43679cdc);
 }
 
