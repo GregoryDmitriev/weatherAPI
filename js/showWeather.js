@@ -20,7 +20,7 @@ export function showWeather(data) {
 
   switch (typeWeather) {
     case "clouds":
-      container.style.background = "url(../img/clouds.jpg)";
+      container.style.background = "url(https://media.giphy.com/media/RpwupnbQE5nK6iRkYJ/giphy.gif)";
       container.style.backgroundRepeat = "no-repeat";
       container.style.backgroundSize = "cover";
       break;
